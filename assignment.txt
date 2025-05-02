@@ -1,0 +1,76 @@
+1. GET /drugs/antibiotics
+
+Return all drugs where category is "Antibiotic".
+
+
+2.GET /drugs/names
+
+Return an array of all drug names converted to lowercase.
+
+
+
+
+3.POST /drugs/by-category
+
+Accept a category in the body and return all drugs under that category.
+Example body: { "category": "Antibiotic" }
+
+
+
+
+4.GET /drugs/names-manufacturers
+
+Return an array of objects showing each drug’s name and manufacturer.
+
+
+
+
+5.GET /drugs/prescription
+
+Return all drugs where isPrescriptionOnly is true.
+
+
+
+
+6. GET /drugs/formatted
+
+Return a new array where each item is a string like:
+"Drug: [name] - [dosageMg]mg"
+
+
+
+
+7.GET /drugs/low-stock
+
+Return all drugs where stock is less than 50.
+
+
+
+
+8.GET /drugs/non-prescription
+
+Return all drugs where isPrescriptionOnly is false.
+
+
+
+
+9.POST /drugs/manufacturer-count
+
+Accept a manufacturer in the body and return how many drugs are produced by that manufacturer.
+Example body: { "manufacturer": "Pfizer" }
+
+
+
+
+10. GET /drugs/count-analgesics
+
+Count and return how many drugs have the category "Analgesic".
+
+
+
+
+
+
+Push your complete Node.js project (server file + package.json) to GitHub.
+
+Share the GitHub repository URL when you are done.
